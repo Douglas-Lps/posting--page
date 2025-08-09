@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Pagina de postagem</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Página de postagem</h1>
+</header>
+<div id="container">
+<section id="entrada">
+<form id="formulario">
+  <div id="campos-de-digitacao">
+    <div id="campo-titulo">
+    <label for="titulo">Titulo:</label>
+    <input id="titulo" type="text" placeholder="Digite um título aqui">
+    </div>
+    <span id="aviso-titulo"> Máximo 80 caracteres.</span>
+    <div id="campo-mensagem"> 
+    <label for="mensagem" >Mensagem:</label>
+    <textarea id="mensagem" placeholder="Digite sua mensagem aqui"></textarea>
+    </div>
+    <span id="aviso-mensagem" > Máximo 500 caracteres.</span>
+  </div>
+    <div id="div-botao">
+       <button type="submit" id="btn-enviar"> Enviar post</button>
+    </div>
+</form>
+</section>	
+<section id="saida">
+<div id="rederizados">
+<h2 id="renderizador-titulo">Título aparece aqui...</h2>
+<p id="renderizador-conteudo">Mensagem aparece aqui...</p>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

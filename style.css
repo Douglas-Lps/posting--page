@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*background-color: #f2f2f2;*/
+	background-color: #DCDCDC;
+	
+}
+
+#container{
+	display: flex;
+	justify-content: center;
+	
+	
+}
+
+#entrada{
+	background-color: #57a6a8;
+	display:flex;
+	flex-direction: column;
+	width: 600px;
+	height: 400px;
+	justify-content: center;
+	margin-right: 40px;
+    border-radius: 10px;
+    padding: 0 20px;
+	
+}
+
+#formulario{
+	background-color: #f2f2f2;
+	border:  5px solid #f2f2f2;
+	border-radius: 8px;
+}
+
+#campos-de-digitacao {
+	background-color: #f2f2f2;
+	padding: 20px 10px;
+	border-radius: 7px;
+	
+	
+}
+
+#div-botao {
+	text-align: center;
+	background-color: #f2f2f2;
+	
+	
+}
+
+#div-botao button {
+	height:45px;
+	width: 150px;
+	border-radius: 10px;
+	background-color: #28284c;
+	color: white;
+	font-weight: bold;
+}
+
+#saida {
+	background-color: #57a6a8;
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	height: 400px;
+	justify-content: center;
+	padding: 0 20px;
+	border-radius: 10px;
+	
+}
+
+#entrada label {
+	background-color: #f2f2f2;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#campo-titulo {
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	color: #0e4359;
+}
+#campo-mensagem {
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	color: #0e4359;
+}
+
+#titulo{
+	    background-color: rgba(255, 255, 255, 0.70);
+		height: 30px;
+		border-radius: 4px;
+
+}
+#mensagem {
+  background-color: rgba(255, 255, 255, 0.70);
+  height: 120px;
+  border-radius: 4px;
+  padding: 8px; 
+  
+}
+
+#rederizados {
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border: 2px dashed #2F4F4F;
+	border-radius: 5px;
+	padding: 30px 10px;
+}
+#renderizador-titulo {
+	background-color: #f2f2f2;
+	color: #0e4359;
+	text-align: center;
+	word-wrap: break-word;     /* Quebra palavras grandes */
+    overflow-wrap: break-word;
+}
+
+#renderizador-conteudo {
+	background-color: #f2f2f2;
+	color: #113030;
+	text-align: center;
+	word-wrap: break-word;     
+    overflow-wrap: break-word;
+}
+
+#aviso-mensagem, #aviso-titulo {
+	background-color: #f2f2f2;
+	color: #292f43;
+	font-size: 14px;;
+}
+
+header {
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+h1{
+	color: #28284c;
+}
